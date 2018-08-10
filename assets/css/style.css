@@ -40,10 +40,7 @@ head {
     color: black;
 }
 
-.topnav a.active {
-    background-color: #4aaaa5;
-    color: white;
-}
+
 
     body {
         background-color: #cccccc;
@@ -53,7 +50,8 @@ head {
         background-color: #ffffff;
         height: 960px;
         position:relative;
-        margin: 5%;
+        margin-top: 8%;
+        margin-bottom: 15%;
         margin-left: 15%;
         margin-right: 15%;
 
@@ -85,6 +83,45 @@ head {
         margin-right: 10px;
         clear:both;
     }
+    .portfolio1 {
+        width: 400px;
+        height: 200px;
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+    }
+
+    .portfolio2 {
+        width: 400px;
+        height: 200px;
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+    }
+
+    .portfolio3 {
+        width: 400px;
+        height: 200px;
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+    }
+
+    .portfolio4 {
+        width: 400px;
+        height: 200px;
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+    }
+
+    .portfolio5 {
+        width: 400px;
+        height: 200px;
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-bottom: 3%;
+    }
     
    .p1 {
     margin-left: 0px;
@@ -93,6 +130,36 @@ head {
     color: #777777;
     font-size: 26px;
    }
+
+   form {
+    margin-left: 8% ;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 1000px;
+   margin-right:40%;
+   height: 2em;
+  }
+   
+  textarea {
+    height: 20em;
+  }
+  
+  button {
+    margin-left: 8em;
+    margin-top: 1em;
+   color: white;
+   text-transform: uppercase;
+    background-color: #4aaaa5;
+    height:50px;
+    width:200px;
+  }
+
    .copyright {
     padding-top: 2%;
    }
