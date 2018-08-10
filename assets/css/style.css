@@ -2,15 +2,22 @@ head {
     background-color: #ffffff;
     height: 80px;
     }
+    body {
+        background-color: #cccccc;
+    }
 
  #name {
     background-color: #4aaaa5;
-    width:200px;
-    height: 80px;
+    width:250px;
+    height: 50px;
    padding: 0;
-   margin: 0;
+   margin-left:10%;
    display: inline-block;
    float: left;
+   color: white;
+   text-align: center;
+   padding-top: 1%;
+
     }
     
     #about {
@@ -36,5 +43,21 @@ head {
       text-transform: uppercase;
       color: #777777;
     }
-    
+    .bio {
+        width: 300px;
+        height: 300px;
+        padding-top: 2%;
+        padding-left: 14%;
+    }
+    .main {
+        padding-top: 7%;
+        height: 60%;
+        width: 960px;
+        background-color: white;
+        
+
+    }
+    #main-title {
+        padding-left: 20%;
+    }
     
