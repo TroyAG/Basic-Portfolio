@@ -1,0 +1,40 @@
+head {
+    background-color: #ffffff;
+    height: 80px;
+    }
+
+ #name {
+    background-color: #4aaaa5;
+    width:200px;
+    height: 80px;
+   padding: 0;
+   margin: 0;
+   display: inline-block;
+   float: left;
+    }
+    
+    #about {
+       padding-right: 130px;
+        float: right;
+    }
+
+    #portfolio {
+       padding-right: 100px;
+        float: right;
+    }
+    
+    #contact {
+        padding-right: 70px;
+        float: right;  
+    }
+
+    a {
+        background-color: white;
+      color: white;
+      padding: 1em 1.5em;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #777777;
+    }
+    
+    
